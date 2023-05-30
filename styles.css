@@ -9,55 +9,6 @@ background: radial-gradient(circle, rgba(191,172,221,1) 0%, rgba(136,141,198,1) 
   
 }
 
-.logo {
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-    
-  position: absolute;
-  width: 120px;
-  height: 48px;
-  left: 10px;
-  top: 20px;
-}
-
-.regra{
-
-  width: 228px;
-  height: 18px;
-  top: 465px;
-  left: 240px;
-  position: absolute;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-
-  color: #363535;
-
-  opacity: 0.8;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-
-}
-
-.boneco {
-
-  position: fixed;
-  width: 336px;
-  height: 304px;
-  left: 1000px;
-  top: 230px;
-}
-
-
 textarea {
 
   height: 300px;
@@ -66,6 +17,12 @@ textarea {
   border-radius: 10px;
   background-color: #f5f5f5;
   resize: horizontal;
+}
+
+.aviso{
+
+  font-weight: bold
+
 }
 
 #textoEntrada{
@@ -108,26 +65,47 @@ textarea {
   top: 530px;
 }
 
-  .botao {
-    background:linear-gradient(to bottom, #bfacdd 5%, #888dc6 100%);
-    background-color:#bfacdd;
-    border-radius:13px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Courier New;
-    font-size:18px;
-    font-weight:bold;
-    font-style:italic;
-    padding:6px 20px;
-    text-decoration:none;
-    text-shadow:0px 0px 0px #294794;
-  }
-  .botao:hover {
-    background:linear-gradient(to bottom, #888dc6 5%, #bfacdd 100%);
-    background-color:#888dc6;
-  }
-  
+.botao {
+  background:linear-gradient(to bottom, #bfacdd 5%, #888dc6 100%);
+  background-color:#bfacdd;
+  border-radius:13px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Courier New;
+  font-size:18px;
+  font-weight:bold;
+  font-style:italic;
+  padding:6px 20px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #294794;
+}
 
-
+.botao:hover {
+  background:linear-gradient(to bottom, #888dc6 5%, #bfacdd 100%);
+  background-color:#888dc6;
+}
   
+.logo {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+      
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 5px;
+  top: 40px;
+}
+
+.boneco {
+  
+  position: fixed;
+  width: 336px;
+  height: 304px;
+  left: 1000px;
+  top: 230px;
+}
